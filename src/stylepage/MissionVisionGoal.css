@@ -1,0 +1,58 @@
+/* MissionVisionGoal.css */
+
+/* Container styles */
+.mission-vision-goal-container {
+    margin: 30px auto;
+    /* margin-top: 30px ; */
+    width: 80%;
+  }
+  
+  /* Inner container styles */
+  .mission-vision-goal-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Item styles */
+  .mission-vision-goal-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Image styles */
+  .mission-vision-goal-image {
+    width: 100px; /* Adjust image size as needed */
+    height: auto;
+    filter: grayscale(70%);
+  }
+  
+  /* Title styles */
+  .mission-vision-goal-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+  }
+  
+  /* Description styles */
+  .mission-vision-goal-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 10px;
+    padding-top: 2px;
+  }
+  
+  /* Media query for responsive layout */
+  @media (min-width: 768px) {
+    .mission-vision-goal-inner {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .mission-vision-goal-item {
+      width: 30%; /* Adjust item width as needed */
+    }
+  }
+  
