@@ -1,0 +1,55 @@
+/* Responsive CSS for BannerContent component */
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+    .bg-blue-900 {
+      padding: 20px; /* Example padding adjustment for smaller screens */
+    }
+  
+    .text-4xl {
+      font-size: 2.5rem; /* Example font size adjustment for smaller screens */
+    }
+  
+    .text-2xl {
+      font-size: 1.5rem; /* Example font size adjustment for smaller screens */
+    }
+  
+    .mt-6 {
+      margin-top: 3rem !important; /* Example margin adjustment for smaller screens */
+    }
+  
+    .p-2 {
+      padding: 0.5rem !important; /* Example padding adjustment for smaller screens */
+    }
+  
+    .ml-5 {
+      margin-left: 1.25rem !important; /* Example margin adjustment for smaller screens */
+    }
+  
+    .mt-5 {
+      margin-top: 3rem !important; /* Example margin adjustment for smaller screens */
+    }
+  
+    .mb-2 {
+      margin-bottom: 1rem !important; /* Example margin adjustment for smaller screens */
+    }
+  
+    .mr-5 {
+      margin-right: 1.25rem !important; /* Example margin adjustment for smaller screens */
+    }
+  }
+  
+  /* Adjust styles for medium screens */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .mr-5 {
+      margin-right: 5rem !important; /* Example margin adjustment for medium screens */
+    }
+  
+    /* Add more responsive styles as needed for medium screens */
+  }
+  
+  /* Adjust styles for large screens */
+  @media (min-width: 992px) {
+    /* Add more responsive styles as needed for large screens */
+  }
+  
